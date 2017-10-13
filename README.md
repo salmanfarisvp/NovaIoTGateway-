@@ -9,7 +9,7 @@
 
 ## Why IoT Gateway
 
-The main problem in IOT is Connectivity to Cloud or Send sensor to data to Cloud for Analytics, most of the things do not have the ability to connect internet directly, also in IoT echo systems we will have different things and different connectivity protocols like BLE, ZigBee, LoRa...etc. 
+The main problem in IOT is Connectivity to Cloud and Send sensor data to Cloud for Analytics, most of the things do not have the ability to connect internet directly, also in IoT echo systems we will have different things and different connectivity protocols like BLE, ZigBee, LoRa...etc. 
 
 so to overcome this problem we need a Common endpoint that connects all the things and sends data to cloud as unified protocols.
 
