@@ -1,12 +1,13 @@
 # Nova IoT Gateway
- Hologram Nova based IoT Gateway :-https://salmanfarisvp.github.io/
+ Hologram Nova based IoT Gateway :-https://salmanfarisvp.github.io/NovaIoTGateway-/
  
- ## What we are going to Build ..
+## What we are going to Build ..
+ 
  
  [![Diagram](https://raw.githubusercontent.com/salmanfarisvp/NovaIoTGateway-/master/Pictures/layout.jpg)](layout )
  
 
-## why IoT Gateway
+## Why IoT Gateway
 
 The main problem in IOT is Connectivity to Cloud or Send sensor to data to Cloud for Analytics, most of the things do not have the ability to connect internet directly, also in IoT echo systems we will have different things and different connectivity protocols like BLE, ZigBee, LoRa...etc. 
 
