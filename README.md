@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+# Nova IoT Gateway
+ Hologram Nova based IoT Gateway :-https://salmanfarisvp.github.io/
+ 
+ ## What we are going to Build ..
+ 
+ [![Diagram](https://raw.githubusercontent.com/salmanfarisvp/NovaIoTGateway-/master/Pictures/layout.jpg)](layout )
+ 
 
-You can use the [editor on GitHub](https://github.com/salmanfarisvp/NovaIoTGateway-/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## why IoT Gateway
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+The main problem in IOT is Connectivity to Cloud or Send sensor to data to Cloud for Analytics, most of the things do not have the ability to connect internet directly, also in IoT echo systems we will have different things and different connectivity protocols like BLE, ZigBee, LoRa...etc. 
 
-### Markdown
+so to overcome this problem we need a Common endpoint that connects all the things and sends data to cloud as unified protocols.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## what it's importent 
 
-```markdown
-Syntax highlighted code block
+As IoT grows and billions of devices need to connect to the world, one of the most critical components of future Internet of Things systems may be a device known as an "IoT gateway." An IoT gateway aggregates sensor data, translates between sensor protocols, processes sensor data before sending it onward and more.
 
-# Header 1
-## Header 2
-### Header 3
+IoT gateways perform several critical functions such as device connectivity, protocol translation, data filtering and processing, security, updating, management and more. Newer IoT gateways also operate as platforms for application code that processes data and becomes an intelligent part of a device-enabled system.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+## Noava IoT Gateway 
 
-**Bold** and _Italic_ and `Code` text
+We have things powered by BLE, ZigBee .. etc but we can't push the data to the server with these network protocols, we need a unified and most reliable, low cost network.
 
-[Link](url) and ![Image](src)
-```
+here comes Hologram Nova, Nova is a global 3G/2G cellular modem purpose-built for IoT, so we don't worry about connectivity, it's GSM. I know it's slow when compare with wifi but in IoT, we don't have a gigabit of data to transfer, we only need to send some bytes or Kilobits, and with great GSM coverage, it's the best platform for the Gateway.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## What Am Going to build 
 
-### Jekyll Themes
+Nova is powered by GSM, so it gives us better connectivity, but we need a host to control the Nova. 
+Nova support plug play with popular development computers like  Raspberry Pi Single board computer.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/salmanfarisvp/NovaIoTGateway-/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Raspberry Pi + Nova = Complete IoT Gateway 
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+ 
